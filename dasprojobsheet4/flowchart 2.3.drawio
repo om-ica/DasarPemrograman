@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" modified="2023-09-24T13:45:17.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.36" etag="O2PusbTa2xU5GEJmpUIk" version="21.7.5" type="device">
+  <diagram name="Page-1" id="w2-Me1RlL8tP0mWc4tam">
+    <mxGraphModel dx="1042" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TeZKz_kXDq4lmarKnaPd-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-1" value="START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TeZKz_kXDq4lmarKnaPd-3" target="TeZKz_kXDq4lmarKnaPd-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-3" value="String merkBuku, jmlHalBuku&lt;br&gt;int harga, jumlah&lt;br&gt;double diskon, total, bayar, jmlDis" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=middle;align=center;fontStyle=0;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="160" width="178" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TeZKz_kXDq4lmarKnaPd-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-5" value="merkBuku, jmlHalBuku, harga, jumlah, diskon" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="331" y="320" width="188" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TeZKz_kXDq4lmarKnaPd-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-7" value="total=harga*jumlah" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="480" width="137" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TeZKz_kXDq4lmarKnaPd-10" target="TeZKz_kXDq4lmarKnaPd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-10" value="jmlDis=total*diskon" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="580" width="137" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TeZKz_kXDq4lmarKnaPd-11" target="TeZKz_kXDq4lmarKnaPd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-11" value="bayar=total-jmlDis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="680" width="137" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TeZKz_kXDq4lmarKnaPd-14" target="TeZKz_kXDq4lmarKnaPd-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-14" value="jmlDis&lt;br&gt;bayar" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="780" width="131" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TeZKz_kXDq4lmarKnaPd-16" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365.5" y="910" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

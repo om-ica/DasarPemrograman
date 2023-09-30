@@ -19,5 +19,7 @@ public class Lingkaran15 {
 
         System.out.println("\nKeliling: " + keliling);
         System.out.println("Luas: " + luas);
+
+        input.close();
     }
 }

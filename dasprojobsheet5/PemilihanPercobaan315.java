@@ -38,5 +38,7 @@ public class PemilihanPercobaan315 {
             default:
                 break;
         }
+
+        input15.close();
     }
 }

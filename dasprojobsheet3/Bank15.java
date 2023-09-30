@@ -15,5 +15,6 @@ public class Bank15 {
 
         System.out.println("Jumlah tabunga akhir anda adalah " +jml_tabungan_akhir);
 
+        input.close();
     }
 }

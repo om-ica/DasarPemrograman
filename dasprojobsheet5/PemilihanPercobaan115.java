@@ -13,5 +13,6 @@ public class PemilihanPercobaan115 {
         String hasil=angka % 2==0 ? "Bilangan genap" : "Bilangan ganjil";
         System.out.println("Jadi hasilnya adalah " + hasil);
 
+        input15.close();
     }
 }

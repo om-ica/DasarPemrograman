@@ -7,14 +7,13 @@ public class HargaBayar15 {
         
         Scanner input = new Scanner(System.in);
 
-        String merkBuku, jmlHalBuku;
         int harga, jumlah;
         double diskon, total, bayar, jmldis;
 
         System.out.println("Masukkan Merk Buku");
-        merkBuku=input.nextLine();
+        String merkBuku=input.nextLine();
         System.out.println("Masukkan jumlah halaman buku");
-        jmlHalBuku=input.nextLine();
+        String jmlHalBuku=input.nextLine();
         System.out.println("Masukkan harga barang yang dibeli ");
         harga=input.nextInt();
         System.out.println("Masukkan jumlah jumlah barang yang dibeli ");
@@ -29,5 +28,6 @@ public class HargaBayar15 {
         System.out.println("Diskon yang anda dapatkan adalah " + jmldis);
         System.out.println("Jumlah yang harus dibayar adakah " + bayar);
 
+        input.close();
     }
 }

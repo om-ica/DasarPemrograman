@@ -24,5 +24,6 @@ public class Gaji15 {
 
         System.out.println("Gaji yang anda terima adalah " + TotGaji);
 
+        input.close();
     }
 }

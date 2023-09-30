@@ -38,5 +38,7 @@ public class PemilihanPercobaan215 {
          //remidi atau tidak remidi   
         String message = total < 65 ? "Remidi" : "Tidak remidi";
         System.out.println("Nilai akhir = " + total + " sehingga " + message);
+
+        input15.close();
     }
 }

@@ -7,13 +7,11 @@ public class PemilihanPercobaan115 {
 
         Scanner input15 = new Scanner(System.in);
 
-        System.out.println("Masukkan angka: ");
+        System.out.print("Masukkan angka: ");
         int angka=input15.nextInt();
 
-        if (angka % 2==0)
-            System.out.println("Angka "+angka+" bilangan genap");
-        else 
-            System.out.println("Angka "+angka+" bilangan ganjil");
+        String hasil=angka % 2==0 ? "Bilangan genap" : "Bilangan ganjil";
+        System.out.println("Jadi hasilnya adalah " + hasil);
 
     }
 }

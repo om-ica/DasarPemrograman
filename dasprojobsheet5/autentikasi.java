@@ -7,16 +7,20 @@ public class autentikasi {
         
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Username: ");
+        System.out.println("------------------------------------------------------");
+
+        System.out.print("Username\t: ");
         String username=input.nextLine();
-        System.out.print("Password: ");
+        System.out.print("Password\t: ");
         String password=input.nextLine();
 
         if (username.equals("iraya") && password.equals("123")) {
-            System.out.print("Login berhasil");
+            System.out.println("Login berhasil");
         } else {
             System.out.println("Login gagal. Username dan Password salah");
         }
+
+        System.out.println("------------------------------------------------------");
 
         input.close();
     }

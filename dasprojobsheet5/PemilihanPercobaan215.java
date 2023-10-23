@@ -18,17 +18,21 @@ public class PemilihanPercobaan215 {
 
         float total = (uas*0.4F) + (uts*0.3F) + (kuis*0.1F) + (tugas*0.2F);
         
-        char predikat=0;
+        String predikat="error";
         if (total < 39) {
-            predikat='E';    
+            predikat="E";    
         } else if (total < 50) {
-            predikat='D';
-        } else if (total < 70) {
-            predikat='C';
-        } else if (total < 85) {
-            predikat='B';
+            predikat="D";
+        } else if (total < 60) {
+            predikat="C";
+        } else if (total < 65) {
+            predikat="C+";
+        } else if (total < 73) {
+            predikat="B";
+        } else if (total < 80) {
+            predikat="B+";
         } else if (total < 100) {
-            predikat='B';
+            predikat="A";
         } else {
             System.out.println("Nilai tidak valid");
         }

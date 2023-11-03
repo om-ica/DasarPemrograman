@@ -31,5 +31,17 @@ public class bioskop15 {
         System.out.println(penonton[2].length);
         System.out.println(penonton[3].length);
 
+        System.out.println(penonton.length);
+        for (String[] barisPenonton : penonton) {
+            System.out.println("Panjang baris: " + barisPenonton.length);
+        }
+
+        System.out.println("\nPenonton pada baris ketiga");
+        for (int i = 0; i < penonton[2].length; i++) {
+            System.out.println(penonton[2][i]);
+        }
+
+
+
     }
 }

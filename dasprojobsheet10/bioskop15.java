@@ -36,11 +36,9 @@ public class bioskop15 {
             System.out.println("Panjang baris: " + barisPenonton.length);
         }
 
-        System.out.println("\nPenonton pada baris ketiga");
-        for (int i = 0; i < penonton[2].length; i++) {
-            System.out.println(penonton[2][i]);
+        for (int i = 0; i < penonton.length; i++) {
+            System.out.println("\nPenonton pada baris ke-" + (i+1) + " : " + String.join(", ", penonton[i]));
         }
-
 
 
     }
